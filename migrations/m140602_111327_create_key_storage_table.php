@@ -1,9 +1,9 @@
 <?php
 
-class m140602_111327_create_key_storage_item_table extends \yii\db\Migration
+class m140602_111327_create_key_storage_table extends \yii\db\Migration
 {
 
-    const TABLE_NAME = '{{%key_storage_item}}';
+    const TABLE_NAME = '{{%key_storage}}';
 
     /**
      * @inheritdoc

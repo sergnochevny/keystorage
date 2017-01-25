@@ -11,14 +11,14 @@ use yii\behaviors\TimestampBehavior;
  * @property integer $key
  * @property integer $value
  */
-class KeyStorageItem extends \yii\db\ActiveRecord
+class KeyStorage extends \yii\db\ActiveRecord
 {
     /**
      * @inheritdoc
      */
     public static function tableName()
     {
-        return '{{%key_storage_item}}';
+        return '{{%key_storage}}';
     }
 
     public function behaviors()
