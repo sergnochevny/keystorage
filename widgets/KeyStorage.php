@@ -1,12 +1,12 @@
 <?php
 
-namespace lun324\keystorage\widgets;
+namespace keystorage\widgets;
 
 use yii\base\InvalidConfigException;
 use yii\base\Widget;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
-use lun324\keystorage\models\KeyStroageFormModel;
+use KeyStorage\models\KeyStroageFormModel;
 
 /**
  * @author Eugene Terentev <eugene@terentev.net>
