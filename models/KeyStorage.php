@@ -6,9 +6,9 @@ use Yii;
 use yii\behaviors\TimestampBehavior;
 
 /**
- * This is the model class for table "key_storage_item".
+ * This is the model class for table "key_storage".
  *
- * @property integer $key
+ * @property integer $name
  * @property integer $value
  */
 class KeyStorage extends \yii\db\ActiveRecord
