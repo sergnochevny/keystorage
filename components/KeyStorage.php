@@ -169,7 +169,7 @@ class KeyStorage extends Component
     protected function getModel($key)
     {
         $query = call_user_func($this->modelClass.'::find');
-        return $query->where(['key'=>$key])->select(['name', 'value'])->one();
+        return $query->where(['name'=>$key])->select(['name', 'value'])->one();
     }
 
     /**
