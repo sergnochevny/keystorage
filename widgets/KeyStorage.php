@@ -6,7 +6,7 @@ use yii\base\InvalidConfigException;
 use yii\base\Widget;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
-use KeyStorage\models\KeyStroageFormModel;
+use keystorage\models\KeyStroageFormModel;
 
 /**
  * @author Eugene Terentev <eugene@terentev.net>

@@ -22,7 +22,7 @@ class KeyStorage extends Component
     /**
      * @var string
      */
-    public $modelClass = 'KeyStorage\models\KeyStorage';
+    public $modelClass = 'keystorage\models\KeyStorage';
 
     /**
      * @var array Runtime values cache
@@ -37,7 +37,7 @@ class KeyStorage extends Component
             Yii::$app->i18n->translations['keyStorage'] = [
                 'class' => 'yii\i18n\PhpMessageSource',
                 'sourceLanguage' => 'en',
-                'basePath' => '@KeyStorage/messages'
+                'basePath' => '@keystorage/messages'
             ];
         }
     }
