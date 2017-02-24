@@ -53,7 +53,7 @@ class KeyStorage extends Component
         $model = $this->getModel($key);
         if (!$model) {
             $model = new $this->modelClass;
-            $model->key = $key;
+            $model->name = $key;
         }
         $model->value = $value;
         if ($model->save(false)) {
