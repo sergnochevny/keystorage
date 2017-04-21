@@ -1,6 +1,6 @@
 <?php
 
-namespace keystorage\models;
+namespace ait\keystorage\models;
 
 use Yii;
 use yii\behaviors\TimestampBehavior;

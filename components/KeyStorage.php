@@ -1,5 +1,5 @@
 <?php
-namespace keystorage\components;
+namespace ait\keystorage\components;
 
 use yii\base\Component;
 use yii\helpers\ArrayHelper;
@@ -22,7 +22,7 @@ class KeyStorage extends Component
     /**
      * @var string
      */
-    public $modelClass = 'keystorage\models\KeyStorage';
+    public $modelClass = 'ait\keystorage\models\KeyStorage';
 
     /**
      * @var array Runtime values cache
