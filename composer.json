@@ -1,7 +1,6 @@
 {
     "name": "ait/keystorage",
     "type": "extension",
-    "version": "0.0.3",
     "require": {
         "yiisoft/yii2": "^2.0"
     },
