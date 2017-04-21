@@ -42,30 +42,30 @@ class KeyStorage extends Widget
         $model = $this->model;
         $form = call_user_func([$this->formClass, 'begin'], $this->formOptions);
         foreach ($model->keys as $key => $config) {
-            $type = ArrayHelper::getValue($config, 'type', KeyStroageFormModel::TYPE_TEXTINPUT);
+            $type = ArrayHelper::getValue($config, 'type', KeyStorageFormModel::TYPE_TEXTINPUT);
             $options = ArrayHelper::getValue($config, 'options', []);
             $field = $form->field($model, $key);
             $items = ArrayHelper::getValue($config, 'items', []);
             switch ($type) {
-                case KeyStroageFormModel::TYPE_TEXTINPUT:
+                case KeyStorageFormModel::TYPE_TEXTINPUT:
                     $input = $field->textInput($options);
                     break;
-                case KeyStroageFormModel::TYPE_DROPDOWN:
+                case KeyStorageFormModel::TYPE_DROPDOWN:
                     $input = $field->dropDownList($items, $options);
                     break;
-                case KeyStroageFormModel::TYPE_CHECKBOX:
+                case KeyStorageFormModel::TYPE_CHECKBOX:
                     $input = $field->checkbox($options);
                     break;
-                case KeyStroageFormModel::TYPE_CHECKBOXLIST:
+                case KeyStorageFormModel::TYPE_CHECKBOXLIST:
                     $input = $field->checkboxList($items, $options);
                     break;
-                case KeyStroageFormModel::TYPE_RADIOLIST:
+                case KeyStorageFormModel::TYPE_RADIOLIST:
                     $input = $field->radioList($items, $options);
                     break;
-                case KeyStroageFormModel::TYPE_TEXTAREA:
+                case KeyStorageFormModel::TYPE_TEXTAREA:
                     $input = $field->textarea($options);
                     break;
-                case KeyStroageFormModel::TYPE_WIDGET:
+                case KeyStorageFormModel::TYPE_WIDGET:
                     $widget = ArrayHelper::getValue($config, 'widget');
                     if ($widget === null) {
                         throw new InvalidConfigException('Widget class must be set');
