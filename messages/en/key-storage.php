@@ -1,6 +1,6 @@
 <?php
 return [
-    'Key' => 'Key',
+    'Name' => 'Key',
     'Value' => 'Value',
     'Comment' => 'Comment',
 ];

@@ -49,7 +49,7 @@ class KeyStorage extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'name' => Yii::t('key-storage', 'Key'),
+            'name' => Yii::t('key-storage', 'Name'),
             'value' => Yii::t('key-storage', 'Value'),
             'comment' => Yii::t('key-storage', 'Comment'),
         ];

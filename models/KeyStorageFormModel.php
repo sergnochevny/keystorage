@@ -26,7 +26,7 @@ use yii\helpers\Inflector;
  *    ]
  * ]
  */
-class KeyStroageFormModel extends Model
+class KeyStorageFormModel extends Model
 {
     const TYPE_DROPDOWN = 'dropdownList';
     const TYPE_TEXTINPUT = 'textInput';
