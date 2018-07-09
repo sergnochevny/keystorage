@@ -1,12 +1,12 @@
 <?php
 
-namespace ait\keystorage\widgets;
+namespace sn\keystorage\widgets;
 
 use yii\base\InvalidConfigException;
 use yii\base\Widget;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
-use ait\keystorage\models\KeyStorageFormModel;
+use sn\keystorage\models\KeyStorageFormModel;
 
 /**
  * @author Eugene Terentev <eugene@terentev.net>

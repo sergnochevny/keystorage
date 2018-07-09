@@ -1,5 +1,5 @@
 {
-    "name": "ait/keystorage",
+    "name": "sn/keystorage",
     "type": "extension",
     "require": {
         "yiisoft/yii2": "^2.0"
@@ -8,12 +8,12 @@
     "authors": [
         {
             "name": "Serg Nochevny",
-            "email": "serg.nochevny@engineering.ait.com"
+            "email": "serg.nochevny@engineering.sn.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "ait\\keystorage\\": ""
+            "sn\\keystorage\\": ""
         }
     }
 }

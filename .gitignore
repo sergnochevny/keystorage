@@ -10,3 +10,4 @@ themes/classic/views/
 .idea
 .idea/workspace.xml
 /composer.lock
+/vendor/

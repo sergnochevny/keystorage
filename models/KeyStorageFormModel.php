@@ -1,6 +1,6 @@
 <?php
 
-namespace ait\keystorage\models;
+namespace sn\keystorage\models;
 
 use Yii;
 use yii\base\Exception;
